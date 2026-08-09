@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, Sparkles, CheckCircle2 } from "lucide-react";
+import { ArrowRight, Sparkles, CheckCircle2, Bot, BrainCircuit, Workflow } from "lucide-react";
 
 import { company } from "@/data/site-data";
 
@@ -347,6 +347,303 @@ export default function About() {
                 </span>
               </div>
             ))}
+          </div>
+        </motion.div>
+
+        {/* =======================================================
+    AI & AUTOMATION — INTELLIGENT SYSTEMS
+======================================================= */}
+
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, margin: "-100px" }}
+          className="mt-28"
+        >
+          <div className="relative overflow-hidden rounded-[36px] border border-slate-200 bg-slate-950 shadow-2xl shadow-slate-300/30">
+            {/* ===================================================
+        AMBIENT BACKGROUND
+    ==================================================== */}
+
+            <div className="pointer-events-none absolute inset-0">
+              {/* Cyan glow */}
+              <div className="absolute -left-32 top-[-120px] h-[420px] w-[420px] rounded-full bg-cyan-500/15 blur-[130px]" />
+
+              {/* Blue glow */}
+              <div className="absolute -bottom-32 right-[-100px] h-[420px] w-[420px] rounded-full bg-blue-600/20 blur-[140px]" />
+
+              {/* Center glow */}
+              <div className="absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full bg-cyan-400/5 blur-[100px]" />
+
+              {/* Technical grid */}
+              <div
+                className="absolute inset-0 opacity-[0.07]"
+                style={{
+                  backgroundImage:
+                    "linear-gradient(rgba(255,255,255,0.8) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.8) 1px, transparent 1px)",
+                  backgroundSize: "52px 52px",
+                }}
+              />
+
+              {/* Radial fade */}
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_20%,rgba(2,6,23,0.55)_100%)]" />
+            </div>
+
+            {/* ===================================================
+        MAIN CONTENT
+    ==================================================== */}
+
+            <div className="relative grid gap-12 p-7 sm:p-10 lg:grid-cols-[1fr_1.05fr] lg:gap-16 lg:p-16">
+              {/* =================================================
+          LEFT — BRAND MESSAGE
+      ================================================== */}
+
+              <div className="flex flex-col justify-center">
+                {/* Eyebrow */}
+
+                <div className="inline-flex w-fit items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 backdrop-blur-xl">
+                  <div className="relative flex h-2 w-2">
+                    <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-cyan-400 opacity-60" />
+                    <span className="relative inline-flex h-2 w-2 rounded-full bg-cyan-400" />
+                  </div>
+
+                  <span className="text-[11px] font-bold uppercase tracking-[0.22em] text-cyan-300">
+                    AI & Business Automation
+                  </span>
+                </div>
+
+                {/* Heading */}
+
+                <h2 className="mt-7 max-w-xl text-3xl font-bold leading-[1.08] tracking-tight text-white sm:text-4xl lg:text-5xl">
+                  We Build Software
+                  <span className="mt-1 block bg-gradient-to-r from-cyan-300 via-white to-blue-300 bg-clip-text text-transparent">
+                    That Thinks Beyond Code.
+                  </span>
+                </h2>
+
+                {/* Description */}
+
+                <p className="mt-6 max-w-xl text-sm leading-7 text-slate-400 sm:text-base sm:leading-8">
+                  At Nexora Labs, we don't see AI and automation as isolated features. We see them
+                  as intelligent layers that can transform the way a business operates,
+                  communicates, makes decisions, and grows.
+                </p>
+
+                <p className="mt-4 max-w-xl text-sm leading-7 text-slate-500 sm:text-base">
+                  From repetitive operational workflows to intelligent decision systems, we design
+                  technology around real business problems—not technology for technology's sake.
+                </p>
+
+                {/* Capability tags */}
+
+                <div className="mt-8 flex flex-wrap gap-2.5">
+                  {[
+                    "AI Integration",
+                    "Workflow Automation",
+                    "Business Systems",
+                    "Intelligent Operations",
+                    "Data & Analytics",
+                  ].map((item) => (
+                    <span
+                      key={item}
+                      className="rounded-full border border-white/10 bg-white/[0.04] px-3.5 py-2 text-[11px] font-semibold text-slate-300 backdrop-blur-md transition-colors duration-300 hover:border-cyan-400/30 hover:bg-cyan-400/10 hover:text-cyan-300"
+                    >
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              {/* =================================================
+          RIGHT — INTELLIGENT SYSTEM VISUAL
+      ================================================== */}
+
+              <div className="relative min-h-[430px]">
+                {/* Outer technical frame */}
+
+                <div className="absolute inset-0 rounded-[30px] border border-white/10 bg-white/[0.025] backdrop-blur-sm" />
+
+                {/* Corner markers */}
+
+                <div className="absolute left-4 top-4 h-4 w-4 border-l border-t border-cyan-400/50" />
+                <div className="absolute right-4 top-4 h-4 w-4 border-r border-t border-cyan-400/50" />
+                <div className="absolute bottom-4 left-4 h-4 w-4 border-b border-l border-cyan-400/50" />
+                <div className="absolute bottom-4 right-4 h-4 w-4 border-b border-r border-cyan-400/50" />
+
+                {/* =================================================
+            CONNECTION LINES
+        ================================================== */}
+
+                <div className="absolute left-[20%] right-[20%] top-[50%] h-px bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent" />
+
+                <div className="absolute bottom-[28%] left-[30%] h-[22%] w-px bg-gradient-to-b from-cyan-400/40 to-transparent" />
+
+                <div className="absolute right-[30%] top-[28%] h-[22%] w-px bg-gradient-to-b from-blue-400/30 to-transparent" />
+
+                {/* =================================================
+            TOP LEFT NODE
+        ================================================== */}
+
+                <div className="absolute left-[8%] top-[15%]">
+                  <div className="relative">
+                    <div className="absolute inset-0 rounded-2xl bg-cyan-400/20 blur-xl" />
+
+                    <div className="relative flex h-14 w-14 items-center justify-center rounded-2xl border border-cyan-300/20 bg-cyan-400/10 shadow-xl backdrop-blur-xl">
+                      <Workflow className="h-6 w-6 text-cyan-300" />
+                    </div>
+                  </div>
+
+                  <p className="mt-2 text-[9px] font-bold uppercase tracking-[0.16em] text-slate-500">
+                    Workflow
+                  </p>
+                </div>
+
+                {/* =================================================
+            TOP RIGHT NODE
+        ================================================== */}
+
+                <div className="absolute right-[8%] top-[15%]">
+                  <div className="relative">
+                    <div className="absolute inset-0 rounded-2xl bg-blue-400/20 blur-xl" />
+
+                    <div className="relative flex h-14 w-14 items-center justify-center rounded-2xl border border-blue-300/20 bg-blue-400/10 shadow-xl backdrop-blur-xl">
+                      <BrainCircuit className="h-6 w-6 text-blue-300" />
+                    </div>
+                  </div>
+
+                  <p className="mt-2 text-right text-[9px] font-bold uppercase tracking-[0.16em] text-slate-500">
+                    Intelligence
+                  </p>
+                </div>
+
+                {/* =================================================
+            CENTER AI CORE
+        ================================================== */}
+
+                <motion.div
+                  animate={{
+                    scale: [1, 1.04, 1],
+                  }}
+                  transition={{
+                    duration: 4,
+                    repeat: Infinity,
+                    ease: "easeInOut",
+                  }}
+                  className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+                >
+                  {/* Outer rings */}
+
+                  <div className="absolute -inset-10 rounded-full border border-cyan-400/10" />
+                  <div className="absolute -inset-6 rounded-full border border-cyan-400/10" />
+
+                  {/* Glow */}
+
+                  <div className="absolute -inset-8 rounded-full bg-cyan-400/20 blur-3xl" />
+
+                  {/* Core */}
+
+                  <div className="relative flex h-28 w-28 items-center justify-center rounded-[30px] border border-cyan-300/30 bg-gradient-to-br from-cyan-400/20 via-slate-900 to-blue-500/20 shadow-[0_0_60px_rgba(34,211,238,0.18)] backdrop-blur-xl">
+                    <div className="absolute inset-3 rounded-[22px] border border-white/5" />
+
+                    <Bot className="relative h-10 w-10 text-cyan-300" />
+                  </div>
+
+                  {/* Core label */}
+
+                  <div className="absolute left-1/2 top-full mt-5 -translate-x-1/2 whitespace-nowrap">
+                    <span className="rounded-full border border-cyan-400/20 bg-slate-900/80 px-3 py-1.5 text-[9px] font-bold uppercase tracking-[0.2em] text-cyan-300 backdrop-blur-xl">
+                      Intelligent Core
+                    </span>
+                  </div>
+                </motion.div>
+
+                {/* =================================================
+            BOTTOM LEFT NODE
+        ================================================== */}
+
+                <div className="absolute bottom-[12%] left-[16%]">
+                  <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 backdrop-blur-xl">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-cyan-400/10">
+                      <CheckCircle2 className="h-4 w-4 text-cyan-300" />
+                    </div>
+
+                    <div>
+                      <p className="text-[9px] font-bold uppercase tracking-[0.15em] text-slate-500">
+                        Process
+                      </p>
+                      <p className="mt-0.5 text-xs font-semibold text-slate-200">Automated</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* =================================================
+            BOTTOM RIGHT NODE
+        ================================================== */}
+
+                <div className="absolute bottom-[12%] right-[10%]">
+                  <div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.04] px-4 py-3 backdrop-blur-xl">
+                    <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-400/10">
+                      <Sparkles className="h-4 w-4 text-blue-300" />
+                    </div>
+
+                    <div>
+                      <p className="text-[9px] font-bold uppercase tracking-[0.15em] text-slate-500">
+                        Operations
+                      </p>
+                      <p className="mt-0.5 text-xs font-semibold text-slate-200">Intelligent</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Floating status */}
+
+                <div className="absolute bottom-5 left-1/2 -translate-x-1/2 rounded-full border border-emerald-400/20 bg-emerald-400/10 px-4 py-2 backdrop-blur-xl">
+                  <div className="flex items-center gap-2">
+                    <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.8)]" />
+
+                    <span className="text-[9px] font-bold uppercase tracking-[0.16em] text-emerald-300">
+                      Systems Connected
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* ===================================================
+        BOTTOM METRICS
+    ==================================================== */}
+
+            <div className="relative border-t border-white/10 px-7 py-7 sm:px-10 lg:px-16">
+              <div className="grid gap-6 sm:grid-cols-3">
+                {[
+                  {
+                    value: "01",
+                    label: "Understand the Process",
+                  },
+                  {
+                    value: "02",
+                    label: "Identify Automation",
+                  },
+                  {
+                    value: "03",
+                    label: "Build Intelligent Systems",
+                  },
+                ].map((item) => (
+                  <div key={item.value} className="flex items-center gap-4">
+                    <span className="text-sm font-black tracking-[0.12em] text-cyan-400/70">
+                      {item.value}
+                    </span>
+
+                    <div className="h-px flex-1 bg-white/10" />
+
+                    <span className="text-right text-[10px] font-bold uppercase tracking-[0.12em] text-slate-500">
+                      {item.label}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </motion.div>
 

@@ -262,6 +262,102 @@ export const projects = [
   },
 ];
 
+export const automationDemos = [
+  {
+    number: "01",
+    title: "Business Automation Platform",
+    category: "Business Operations",
+    description:
+      "A centralized business automation solution designed to streamline repetitive workflows, manage operations, and bring essential business processes together in one intelligent platform.",
+    image: "/automation/business-automation.png",
+    url: "https://automation-demos.netlify.app/pages/business_automation_demo",
+    featured: true,
+  },
+  {
+    number: "02",
+    title: "Clinic & Diagnostic Patient Follow-Up",
+    category: "Healthcare Operations",
+    description:
+      "A healthcare operations platform designed to organize patient follow-ups, manage records, and improve communication throughout the patient journey.",
+    image: "/automation/clinic-followup.png",
+    url: "https://automation-demos.netlify.app/pages/clinic_diagnostic_patient_followup_demo",
+    featured: false,
+  },
+  {
+    number: "03",
+    title: "Distributor & Dealer Credit Collection",
+    category: "Finance & Collections",
+    description:
+      "A focused credit management solution for distributor and dealer networks to organize outstanding payments, monitor collections, and maintain better control over customer credit cycles.",
+    image: "/automation/credit-collection.png",
+    url: "https://automation-demos.netlify.app/pages/distributor_dealer_credit_collection_demo",
+    featured: false,
+  },
+  {
+    number: "04",
+    title: "Lead-to-Payment Management",
+    category: "Sales Operations",
+    description:
+      "A complete workflow solution connecting the customer journey from lead capture and sales activities through conversion, invoicing, and final payment collection.",
+    image: "/automation/lead-payment.png",
+    url: "https://automation-demos.netlify.app/pages/lead_to_payment_demo",
+    featured: false,
+  },
+  {
+    number: "05",
+    title: "Manpower & Foreign Employment",
+    category: "Workforce Management",
+    description:
+      "A workforce management solution designed to organize recruitment, candidate processing, documentation, and operational workflows for foreign employment businesses.",
+    image: "/automation/manpower-employment.png",
+    url: "https://automation-demos.netlify.app/pages/manpower_foreign_employment_demo",
+    featured: false,
+  },
+  {
+    number: "06",
+    title: "Nepal Tender Desk",
+    category: "Tender Management",
+    description:
+      "A centralized tender management platform designed to help businesses discover, organize, analyze, and manage tender opportunities with greater visibility and control.",
+    image: "/automation/tender-desk.png",
+    url: "https://automation-demos.netlify.app/pages/nepal_tender_desk_demo",
+    featured: false,
+  },
+  {
+    number: "07",
+    title: "NGO / INGO Grant & Donor Reporting",
+    category: "Grant Management",
+    description:
+      "A grant and donor management solution helping NGOs and INGOs organize funding activities, monitor grants, manage reporting workflows, and maintain visibility across projects.",
+    image: "/automation/ngo-grant.png",
+    url: "https://automation-demos.netlify.app/pages/ngo_ingo_grant_donor_reporting_demo",
+    featured: false,
+  },
+  {
+    number: "08",
+    title: "Tourism, Trekking & Travel Operations",
+    category: "Travel Operations",
+    description:
+      "An operations management platform built for travel and tourism businesses to organize trips, trekking operations, bookings, customers, and day-to-day workflows.",
+    image: "/automation/tourism-travel.png",
+    url: "https://automation-demos.netlify.app/pages/tourism_trekking_travel_operations_demo",
+    featured: false,
+  },
+  {
+    number: "09",
+    title: "Marketing, Operations & Systems",
+    category: "Marketing Operations",
+    description:
+      "A centralized marketing and operations system designed to organize campaigns, workflows, activities, and day-to-day business execution.",
+    image: "/automation/marketing-operations.png",
+    url: "https://automation-demos.netlify.app/pages/marketing_operations_system_full_demo",
+    featured: false,
+  },
+];
+
+
+
+
 export const testimonials = [
   {
     name: "Aarav Sharma",
