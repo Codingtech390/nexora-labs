@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import {
   FaGithub,
   FaLinkedin,
@@ -53,39 +54,22 @@ export default function Footer() {
           <div className="lg:col-span-5">
             {/* Logo */}
 
-            <Link
-              href="/"
-              className="group inline-flex items-center gap-3"
-            >
-              {/* Logo Mark */}
-
-              <div className="relative flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl bg-gradient-to-br from-cyan-500 via-cyan-600 to-blue-600 text-lg font-bold text-white shadow-lg shadow-cyan-600/15 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:shadow-xl group-hover:shadow-cyan-600/20">
-                <span className="relative z-10">N</span>
-
-                {/* Shine */}
-
-                <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 group-hover:translate-x-full" />
-              </div>
-
-              {/* Brand Name */}
-
-              <div>
-                <h2 className="text-xl font-bold tracking-tight text-slate-900">
-                  {company.name}
-                </h2>
-
-                <p className="mt-0.5 text-[10px] font-semibold uppercase tracking-[0.3em] text-slate-400">
-                  Software Engineering
-                </p>
-              </div>
+            <Link href="/" className="group flex items-center">
+              <Image
+                src="/Nexora-logo-1.png"
+                alt="Nexora Labs"
+                width={180}
+                height={70}
+                priority
+                className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
+              />
             </Link>
 
             {/* Description */}
 
             <p className="mt-7 max-w-md text-sm leading-7 text-slate-600">
-              We build premium web applications, AI-powered products, cloud
-              solutions, and scalable digital experiences that help businesses
-              grow faster.
+              We build premium web applications, AI-powered products, cloud solutions, and scalable
+              digital experiences that help businesses grow faster.
             </p>
 
             {/* Social Links */}
@@ -200,8 +184,8 @@ export default function Footer() {
                 </h3>
 
                 <p className="mt-4 max-w-sm text-sm leading-7 text-slate-600">
-                  Ready to launch your next software product? We'd love to
-                  discuss your ideas and turn them into something exceptional.
+                  Ready to launch your next software product? We'd love to discuss your ideas and
+                  turn them into something exceptional.
                 </p>
 
                 {/* CTA */}
@@ -211,7 +195,6 @@ export default function Footer() {
                   className="group/button mt-7 inline-flex items-center gap-3 rounded-full bg-slate-900 px-6 py-3.5 text-sm font-semibold text-white shadow-lg shadow-slate-900/10 transition-all duration-300 hover:-translate-y-0.5 hover:bg-cyan-600 hover:shadow-xl hover:shadow-cyan-600/20"
                 >
                   Start Your Project
-
                   <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white/10 transition-all duration-300 group-hover/button:bg-white/20">
                     <FaArrowUpRightDots
                       size={12}
@@ -242,11 +225,8 @@ export default function Footer() {
           {/* Copyright */}
 
           <p className="text-center text-slate-500 md:text-left">
-            © {year}{" "}
-            <span className="font-semibold text-slate-700">
-              {company.name}
-            </span>
-            . All rights reserved.
+            © {year} <span className="font-semibold text-slate-700">{company.name}</span>. All
+            rights reserved.
           </p>
 
           {/* Links */}
@@ -282,4 +262,3 @@ export default function Footer() {
     </footer>
   );
 }
-

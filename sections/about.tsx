@@ -50,7 +50,6 @@ export default function About() {
         {/* =======================================================
             HERO
         ======================================================== */}
-
         <motion.div
           variants={fadeUp}
           initial="hidden"
@@ -96,11 +95,9 @@ export default function About() {
             </Link>
           </div>
         </motion.div>
-
         {/* =======================================================
             STORY
         ======================================================== */}
-
         <div className="mt-24 grid gap-14 lg:grid-cols-2 lg:items-center lg:gap-20">
           {/* Story Content */}
 
@@ -120,26 +117,20 @@ export default function About() {
 
             <div className="mt-7 max-w-xl">
               <p className="text-base leading-7 text-slate-600 md:text-lg md:leading-8">
-                At{" "}
-                <span className="font-semibold text-slate-900">
-                  {company.name}
-                </span>
-                , we believe software should solve real business problems—not
-                create new ones.
+                At <span className="font-semibold text-slate-900">{company.name}</span>, we believe
+                software should solve real business problems—not create new ones.
               </p>
 
               <p className="mt-6 text-base leading-7 text-slate-500 md:text-lg md:leading-8">
-                Every website, application, automation workflow, and AI solution
-                we build is designed with one goal in mind: delivering
-                measurable value while maintaining exceptional user experiences
-                and engineering quality.
+                Every website, application, automation workflow, and AI solution we build is
+                designed with one goal in mind: delivering measurable value while maintaining
+                exceptional user experiences and engineering quality.
               </p>
 
               <p className="mt-6 text-base leading-7 text-slate-500 md:text-lg md:leading-8">
-                Rather than simply writing code, we collaborate with businesses
-                to understand their vision, simplify complex challenges, and
-                build scalable digital products that continue to grow long after
-                launch.
+                Rather than simply writing code, we collaborate with businesses to understand their
+                vision, simplify complex challenges, and build scalable digital products that
+                continue to grow long after launch.
               </p>
             </div>
           </motion.div>
@@ -180,9 +171,7 @@ export default function About() {
                     Company
                   </p>
 
-                  <h3 className="mt-2 text-xl font-bold text-slate-900">
-                    {company.name}
-                  </h3>
+                  <h3 className="mt-2 text-xl font-bold text-slate-900">{company.name}</h3>
                 </div>
 
                 {/* Founded + Location */}
@@ -193,9 +182,7 @@ export default function About() {
                       Founded
                     </p>
 
-                    <h4 className="mt-2 text-lg font-semibold text-slate-900">
-                      {company.founded}
-                    </h4>
+                    <h4 className="mt-2 text-lg font-semibold text-slate-900">{company.founded}</h4>
                   </div>
 
                   <div>
@@ -222,11 +209,9 @@ export default function About() {
             </div>
           </motion.div>
         </div>
-
         {/* =======================================================
             MISSION & VISION
         ======================================================== */}
-
         <div className="mt-24 grid gap-6 lg:grid-cols-2">
           {/* Mission */}
 
@@ -251,9 +236,8 @@ export default function About() {
               </h3>
 
               <p className="mt-5 text-base leading-7 text-slate-600">
-                We partner with startups and businesses to build modern digital
-                products that are scalable, high-performing, and designed for
-                long-term success.
+                We partner with startups and businesses to build modern digital products that are
+                scalable, high-performing, and designed for long-term success.
               </p>
             </div>
           </motion.div>
@@ -281,14 +265,12 @@ export default function About() {
               </h3>
 
               <p className="mt-5 text-base leading-7 text-slate-600">
-                Our vision is to become a trusted engineering partner by
-                delivering software that combines exceptional design,
-                intelligent automation, and reliable engineering.
+                Our vision is to become a trusted engineering partner by delivering software that
+                combines exceptional design, intelligent automation, and reliable engineering.
               </p>
             </div>
           </motion.div>
         </div>
-
         {/* =======================================================
             TECHNOLOGIES
         ======================================================== */}
@@ -302,31 +284,57 @@ export default function About() {
         >
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-[13px] font-bold uppercase tracking-[0.35em] text-cyan-600">
-              Technologies
+              Technologies & Capabilities
             </p>
 
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-              Modern Technologies We Love Working With
+              Tools & Technologies We Work With
             </h2>
 
             <p className="mx-auto mt-6 text-base leading-7 text-slate-600 md:text-lg md:leading-8">
-              We carefully choose technologies that help us build fast,
-              maintainable, and future-ready digital products.
+              From modern software engineering and AI to automation, digital marketing, and content
+              creation, we use the right tools and technologies to build complete digital solutions.
             </p>
           </div>
 
-          {/* Technology Pills */}
+          {/* Technology & Capability Pills */}
 
           <div className="mt-10 flex flex-wrap justify-center gap-3">
             {[
+              // Development
               "Next.js",
               "React",
               "JavaScript",
+              "TypeScript",
               "Tailwind CSS",
               "Framer Motion",
               "Node.js",
+              "Express.js",
+
+              // Database & Infrastructure
               "MongoDB",
+              "PostgreSQL",
               "Git",
+              "Docker",
+              "Vercel",
+              "AWS",
+
+              // AI & Automation
+              "OpenAI",
+              "AI Integrations",
+              "Workflow Automation",
+              "REST APIs",
+
+              // Digital Marketing
+              "SEO",
+              "Google Analytics",
+              "Google Search Console",
+              "Microsoft Clarity",
+
+              // Content & Growth
+              "Content Strategy",
+              "Content Creation",
+              "Social Media",
             ].map((tech) => (
               <div
                 key={tech}
@@ -345,7 +353,6 @@ export default function About() {
         {/* =======================================================
             WHY CHOOSE US
         ======================================================== */}
-
         <motion.div
           variants={fadeUp}
           initial="hidden"
@@ -374,8 +381,7 @@ export default function About() {
               },
               {
                 title: "Performance First",
-                description:
-                  "Optimized experiences with fast loading, accessibility, and SEO.",
+                description: "Optimized experiences with fast loading, accessibility, and SEO.",
               },
               {
                 title: "Business Focused",
@@ -384,8 +390,7 @@ export default function About() {
               },
               {
                 title: "Continuous Innovation",
-                description:
-                  "Leveraging AI, automation, and modern technologies to stay ahead.",
+                description: "Leveraging AI, automation, and modern technologies to stay ahead.",
               },
             ].map((item, index) => (
               <div
@@ -402,13 +407,9 @@ export default function About() {
                   <CheckCircle2 className="h-5 w-5 text-cyan-500/60 transition-colors group-hover:text-cyan-600" />
                 </div>
 
-                <h3 className="mt-7 text-lg font-bold text-slate-900">
-                  {item.title}
-                </h3>
+                <h3 className="mt-7 text-lg font-bold text-slate-900">{item.title}</h3>
 
-                <p className="mt-3 text-sm leading-6 text-slate-500">
-                  {item.description}
-                </p>
+                <p className="mt-3 text-sm leading-6 text-slate-500">{item.description}</p>
 
                 {/* Bottom Accent */}
 
@@ -417,11 +418,9 @@ export default function About() {
             ))}
           </div>
         </motion.div>
-
         {/* =======================================================
             CTA
         ======================================================== */}
-
         <motion.div
           variants={fadeUp}
           initial="hidden"
@@ -448,9 +447,8 @@ export default function About() {
               </h2>
 
               <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-slate-600 md:text-lg md:leading-8">
-                Whether you're building a new product, modernizing an existing
-                platform, or exploring AI-powered solutions, we'd love to help
-                bring your ideas to life.
+                Whether you're building a new product, modernizing an existing platform, or
+                exploring AI-powered solutions, we'd love to help bring your ideas to life.
               </p>
 
               <Link

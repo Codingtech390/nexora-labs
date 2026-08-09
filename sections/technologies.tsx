@@ -8,6 +8,9 @@ import {
   Layers,
   Rocket,
   ShieldCheck,
+  Megaphone,
+  Workflow,
+  PenTool,
 } from "lucide-react";
 
 import { company, technologies } from "@/data/site-data";
@@ -27,6 +30,7 @@ const fadeUp: Variants = {
     },
   },
 };
+
 
 const highlights = [
   {
@@ -65,7 +69,27 @@ const highlights = [
     description:
       "Built with modern AI integrations, automation and intelligent workflows.",
   },
+  {
+    icon: Megaphone,
+    title: "Digital Marketing",
+    description:
+      "Data-driven digital marketing strategies designed to strengthen your online presence and generate meaningful business growth.",
+  },
+  {
+    icon: Workflow,
+    title: "Automation",
+    description:
+      "Intelligent business automation that streamlines repetitive processes, connects systems and improves operational efficiency.",
+  },
+  {
+    icon: PenTool,
+    title: "Content Creation",
+    description:
+      "Strategic content designed to communicate your brand, engage your audience and support consistent digital growth.",
+  },
 ];
+
+
 
 export default function Technologies() {
   return (
@@ -96,9 +120,8 @@ export default function Technologies() {
           </h1>
 
           <p className="mt-5 text-base leading-7 text-slate-600">
-            At {company.name}, we carefully select proven technologies that
-            deliver outstanding performance, scalability, security, and
-            long-term maintainability for every project.
+            At {company.name}, we carefully select proven technologies that deliver outstanding
+            performance, scalability, security, and long-term maintainability for every project.
           </p>
         </motion.div>
 
@@ -144,9 +167,8 @@ export default function Technologies() {
             </h2>
 
             <p className="mt-6 text-lg text-[15px] leading-7 text-slate-600">
-              Great software isn't just about choosing the right framework— it's
-              about applying engineering principles that ensure long-term
-              quality and business success.
+              Great software isn't just about choosing the right framework— it's about applying
+              engineering principles that ensure long-term quality and business success.
             </p>
           </div>
 
@@ -165,9 +187,7 @@ export default function Technologies() {
 
                   <h3 className="mt-6 text-xl font-semibold">{item.title}</h3>
 
-                  <p className="mt-3 text-[15px] leading-7 text-slate-600">
-                    {item.description}
-                  </p>
+                  <p className="mt-3 text-[15px] leading-7 text-slate-600">{item.description}</p>
                 </div>
               );
             })}
@@ -187,13 +207,11 @@ export default function Technologies() {
               Development Process
             </p>
 
-            <h2 className="mt-5 text-3xl font-bold md:text-4xl">
-              Technology With Purpose
-            </h2>
+            <h2 className="mt-5 text-3xl font-bold md:text-4xl">Technology With Purpose</h2>
 
             <p className="mt-6 text-lg text-[15px] leading-7 text-slate-600">
-              Every technology we adopt is selected for reliability,
-              scalability, maintainability, and long-term business value.
+              Every technology we adopt is selected for reliability, scalability, maintainability,
+              and long-term business value.
             </p>
           </div>
 
@@ -201,45 +219,44 @@ export default function Technologies() {
             {[
               {
                 step: "01",
-                title: "Research",
+                title: "Discovery",
                 description:
-                  "Understanding project requirements before selecting the technology stack.",
+                  "Understanding your business, audience, goals, challenges, and requirements before defining the right strategy.",
               },
               {
                 step: "02",
-                title: "Architecture",
+                title: "Strategy & Planning",
                 description:
-                  "Planning scalable and maintainable software architecture.",
+                  "Creating the right product, technology, automation, marketing, and content strategy around your business objectives.",
               },
               {
                 step: "03",
-                title: "Development",
+                title: "Build & Create",
                 description:
-                  "Building clean, reusable, and production-ready software.",
+                  "Developing digital products, implementing automation, creating content, and executing campaigns with a focus on quality and consistency.",
               },
               {
                 step: "04",
-                title: "Optimization",
+                title: "Launch & Grow",
                 description:
-                  "Improving performance, security, accessibility, and SEO.",
+                  "Launching, optimizing, measuring performance, and continuously improving your digital presence for sustainable growth.",
               },
             ].map((item) => (
               <div
                 key={item.step}
-                className="rounded-xl border border-slate-200 bg-white p-5 shadow-sm transition hover:border-cyan-300 hover:shadow-lg"
+                className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-cyan-300 hover:shadow-xl"
               >
-                <p className="text-4xl font-black text-cyan-600/30">
+                <p className="text-4xl font-black text-cyan-600/25 transition-colors group-hover:text-cyan-600/40">
                   {item.step}
                 </p>
 
-                <h3 className="mt-6 text-xl font-semibold">{item.title}</h3>
+                <h3 className="mt-6 text-xl font-semibold text-slate-900">{item.title}</h3>
 
-                <p className="mt-3 text-[15px] leading-7 text-slate-600">
-                  {item.description}
-                </p>
+                <p className="mt-3 text-[15px] leading-7 text-slate-600">{item.description}</p>
               </div>
             ))}
           </div>
+
         </motion.div>
 
         {/* Why Our Stack */}
@@ -256,14 +273,11 @@ export default function Technologies() {
               Why This Stack
             </p>
 
-            <h2 className="mt-5 text-3xl font-bold md:text-4xl">
-              Modern Tools. Better Results.
-            </h2>
+            <h2 className="mt-5 text-3xl font-bold md:text-4xl">Modern Tools. Better Results.</h2>
 
             <p className="mt-6 text-lg text-[15px] leading-7 text-slate-600">
-              Our technology choices focus on delivering exceptional user
-              experiences while ensuring applications remain secure,
-              maintainable, and future-ready.
+              Our technology choices focus on delivering exceptional user experiences while ensuring
+              applications remain secure, maintainable, and future-ready.
             </p>
           </div>
 
@@ -296,9 +310,7 @@ export default function Technologies() {
               >
                 <h3 className="text-xl font-semibold">{item.title}</h3>
 
-                <p className="mt-5 text-[15px] leading-7 text-slate-600">
-                  {item.description}
-                </p>
+                <p className="mt-5 text-[15px] leading-7 text-slate-600">{item.description}</p>
               </div>
             ))}
           </div>
@@ -336,9 +348,7 @@ export default function Technologies() {
                 key={item.label}
                 className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm transition hover:border-cyan-300 hover:shadow-lg"
               >
-                <h3 className="text-4xl font-bold text-cyan-600">
-                  {item.value}
-                </h3>
+                <h3 className="text-4xl font-bold text-cyan-600">{item.value}</h3>
 
                 <p className="mt-2 text-slate-600">{item.label}</p>
               </div>
@@ -356,14 +366,12 @@ export default function Technologies() {
           className="mt-24 overflow-hidden rounded-3xl border border-cyan-200 bg-gradient-to-br from-cyan-50 via-blue-50 to-white p-6 shadow-sm md:p-16"
         >
           <div className="mx-auto max-w-4xl text-center">
-            <h2 className="text-3xl font-bold md:text-4xl">
-              Let's Build With Modern Technology
-            </h2>
+            <h2 className="text-3xl font-bold md:text-4xl">Let's Build With Modern Technology</h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-lg text-[15px] leading-7 text-slate-600">
-              From premium websites to enterprise applications and AI-powered
-              solutions, we use proven technologies to deliver software that's
-              fast, scalable, and built for long-term success.
+              From premium websites to enterprise applications and AI-powered solutions, we use
+              proven technologies to deliver software that's fast, scalable, and built for long-term
+              success.
             </p>
 
             <div className="mt-10 flex flex-wrap justify-center gap-4">

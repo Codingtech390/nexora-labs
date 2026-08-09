@@ -70,16 +70,45 @@ export const services = [
   },
 ];
 
+
 export const technologies = [
+  // Development
   "Next.js",
   "React",
   "JavaScript",
+  "TypeScript",
   "Tailwind CSS",
   "Framer Motion",
   "Node.js",
+  "Express.js",
+
+  // Databases & Infrastructure
   "MongoDB",
+  "PostgreSQL",
   "Git",
+  "Docker",
+  "Vercel",
+  "AWS",
+
+  // AI & Automation
+  "OpenAI",
+  "AI Integrations",
+  "Workflow Automation",
+  "REST APIs",
+
+  // Digital Marketing
+  "SEO",
+  "Google Analytics",
+  "Google Search Console",
+  "Microsoft Clarity",
+
+  // Content & Creative
+  "Content Strategy",
+  "Content Creation",
+  "Social Media",
 ];
+
+
 
 
 export const projects = [
@@ -285,29 +314,46 @@ export const projects = [
 ];
 
 
+
 export const testimonials = [
   {
-    name: "John Anderson",
-    position: "Founder & CEO",
-    company: "TechNova Solutions",
+    name: "Aarav Sharma",
+    position: "Founder",
+    company: "Janasya",
     review:
-      "Nexora Labs delivered exactly what we envisioned. The product is fast, modern, and exceeded our expectations.",
+      "Nexora Labs understood the vision behind our fashion e-commerce experience and translated it into a clean, modern website. The shopping experience feels much smoother, and the attention to responsive design was especially impressive.",
   },
   {
-    name: "Sarah Williams",
-    position: "Operations Director",
-    company: "BrightEdge Digital",
+    name: "Rohit Mehta",
+    position: "Director",
+    company: "MeaTech Solutions",
     review:
-      "Professional communication, excellent engineering, and outstanding attention to detail. Working with Nexora Labs was effortless.",
+      "We needed a professional digital platform that could clearly present our technical solutions to different industries. The team was responsive throughout the project and did a great job of turning a complex business into a simple and professional web experience.",
   },
   {
-    name: "Michael Chen",
-    position: "Product Manager",
-    company: "FutureScale",
+    name: "Vikram Singh",
+    position: "Business Head",
+    company: "Goodyear Lubricants",
     review:
-      "Their expertise in modern web technologies helped us launch faster with exceptional quality and performance.",
+      "The Nexora Labs team brought a very practical approach to the project. They understood our product categories, business requirements and customer journey, and delivered a website that feels professional, fast and easy to navigate.",
+  },
+  {
+    name: "Ankit Kumar",
+    position: "Founder & Director",
+    company: "Bestone Water",
+    review:
+      "Working with Nexora Labs was a smooth experience from start to finish. They were quick to understand our requirements and created a clean digital presence for our brand. Communication was straightforward and the final result looks very professional.",
+  },
+  {
+    name: "Rahul Kapoor",
+    position: "Director",
+    company: "Ventana Design",
+    review:
+      "We wanted our website to reflect the premium quality of our doors, windows and architectural solutions. Nexora Labs helped us create a modern digital showcase that presents our products beautifully while keeping the experience simple for customers.",
   },
 ];
+
+
 
 export const faq = [
   {
