@@ -3,10 +3,12 @@ export const company = {
   tagline: "Building Modern Software That Helps Businesses Grow",
   description:
     "Nexora Labs is a premium software studio specializing in modern websites, scalable web applications, AI-powered solutions, and business automation.",
-  email: "hello@nexoralabs.com",
-  phone: "+91 XXXXX XXXXX",
-  location: "India",
-  founded: "2026",
+  email: "info@nexoralabs.com, medhavi.upadhyaya@gmail.com",
+  alternateEmail: "codingtech390@gmail.com",
+  phone: "+91 98186 73068",
+  alternate: "+91 92964 93509",
+  location: "India, Nepal",
+  founded: "2025",
 };
 
 export const navigation = [
@@ -51,8 +53,7 @@ export const statistics = [
 export const services = [
   {
     title: "Website Development",
-    description:
-      "Modern responsive business websites designed for performance and conversions.",
+    description: "Modern responsive business websites designed for performance and conversions.",
   },
   {
     title: "Web Applications",
@@ -60,16 +61,13 @@ export const services = [
   },
   {
     title: "AI Solutions",
-    description:
-      "Integrating intelligent automation into modern business workflows.",
+    description: "Integrating intelligent automation into modern business workflows.",
   },
   {
     title: "Business Automation",
-    description:
-      "Automating repetitive processes to save time and improve efficiency.",
+    description: "Automating repetitive processes to save time and improve efficiency.",
   },
 ];
-
 
 export const technologies = [
   // Development
@@ -108,9 +106,6 @@ export const technologies = [
   "Social Media",
 ];
 
-
-
-
 export const projects = [
   {
     title: "Janasya E-Commerce Website",
@@ -120,9 +115,7 @@ export const projects = [
 
     image: "/portfolio/janasya-1.png",
 
-    gallery: [
-      "/portfolio/janasya-1.png",
-    ],
+    gallery: ["/portfolio/janasya-1.png"],
 
     shortDescription:
       "A modern fashion e-commerce experience built around contemporary Indian women's fashion and seamless online shopping.",
@@ -130,14 +123,7 @@ export const projects = [
     description:
       "Janasya is a fashion e-commerce brand offering a wide range of women's ethnic and contemporary apparel, including kurtas, kurta sets, dresses, co-ord sets, tops, tunics, maternity wear and plus-size collections. The digital experience is designed to make discovering and shopping fashion products simple, engaging and accessible.",
 
-    technologies: [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Responsive Design",
-      "E-Commerce",
-    ],
+    technologies: ["React", "JavaScript", "HTML", "CSS", "Responsive Design", "E-Commerce"],
 
     client: "Janasya",
 
@@ -160,9 +146,7 @@ export const projects = [
 
     image: "/portfolio/meatech.png",
 
-    gallery: [
-      "/portfolio/meatech.png",
-    ],
+    gallery: ["/portfolio/meatech.png"],
 
     shortDescription:
       "A professional corporate website presenting advanced measurement, monitoring and environmental technology solutions.",
@@ -170,14 +154,7 @@ export const projects = [
     description:
       "MeaTech Solutions is a measurement and monitoring technology company providing equipment, services and technical solutions across areas including meteorology, hydrology, surveying, mining, environmental monitoring, wind resource assessment and geospatial applications. The website serves as a digital platform for presenting its solutions, expertise and industry capabilities.",
 
-    technologies: [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Responsive Design",
-      "Corporate Website",
-    ],
+    technologies: ["React", "JavaScript", "HTML", "CSS", "Responsive Design", "Corporate Website"],
 
     client: "MeaTech Solutions",
 
@@ -200,9 +177,7 @@ export const projects = [
 
     image: "/portfolio/goodyear.png",
 
-    gallery: [
-      "/portfolio/goodyear.png",
-    ],
+    gallery: ["/portfolio/goodyear.png"],
 
     shortDescription:
       "A premium digital presence for an automotive and industrial lubricants brand serving a wide range of applications.",
@@ -210,14 +185,7 @@ export const projects = [
     description:
       "Goodyear Lubricants presents a broad portfolio of automotive and industrial lubricant products, including engine oils, gear oils, hydraulic oils, greases, coolants, brake fluids and other specialized products. The digital platform provides customers and businesses with access to product information, categories and brand resources.",
 
-    technologies: [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Responsive Design",
-      "Corporate Website",
-    ],
+    technologies: ["React", "JavaScript", "HTML", "CSS", "Responsive Design", "Corporate Website"],
 
     client: "Goodyear Lubricants",
 
@@ -240,24 +208,14 @@ export const projects = [
 
     image: "/portfolio/bestone.png",
 
-    gallery: [
-      "/portfolio/bestone.png",
-    ],
+    gallery: ["/portfolio/bestone.png"],
 
-    shortDescription:
-      "A modern digital presence for a water and hydration-focused brand.",
+    shortDescription: "A modern digital presence for a water and hydration-focused brand.",
 
     description:
       "Bestone Water is presented as a dedicated brand website designed to establish a professional digital presence, communicate the brand offering and make its products and services more accessible to customers online.",
 
-    technologies: [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Responsive Design",
-      "Corporate Website",
-    ],
+    technologies: ["React", "JavaScript", "HTML", "CSS", "Responsive Design", "Corporate Website"],
 
     client: "Bestone Water",
 
@@ -280,9 +238,7 @@ export const projects = [
 
     image: "/portfolio/ventana.png",
 
-    gallery: [
-      "/portfolio/ventana.png",
-    ],
+    gallery: ["/portfolio/ventana.png"],
 
     shortDescription:
       "A premium digital showcase for modern glass, uPVC and aluminium doors and windows.",
@@ -290,14 +246,7 @@ export const projects = [
     description:
       "Ventana Design is a premium doors and windows brand offering glass, uPVC and aluminium solutions for residential and commercial spaces. Its product range includes multiple window and door systems along with facade solutions, creating a digital platform focused on showcasing products, capabilities and design possibilities.",
 
-    technologies: [
-      "React",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Responsive Design",
-      "Corporate Website",
-    ],
+    technologies: ["React", "JavaScript", "HTML", "CSS", "Responsive Design", "Corporate Website"],
 
     client: "Ventana Design",
 
@@ -312,8 +261,6 @@ export const projects = [
     githubUrl: "",
   },
 ];
-
-
 
 export const testimonials = [
   {
@@ -352,8 +299,6 @@ export const testimonials = [
       "We wanted our website to reflect the premium quality of our doors, windows and architectural solutions. Nexora Labs helped us create a modern digital showcase that presents our products beautifully while keeping the experience simple for customers.",
   },
 ];
-
-
 
 export const faq = [
   {
@@ -408,8 +353,7 @@ export const faqBenefits = [
   },
   {
     title: "Long-Term Partnership",
-    description:
-      "We continue supporting and improving your product long after the initial launch.",
+    description: "We continue supporting and improving your product long after the initial launch.",
   },
 ];
 

@@ -90,9 +90,8 @@ export default function Contact() {
           {/* Description */}
 
           <p className="mx-auto mt-7 max-w-3xl text-base leading-7 text-slate-600 md:text-lg md:leading-8">
-            Whether you're starting a new project, modernizing an existing
-            platform, or exploring AI-powered solutions, we'd love to hear
-            about your ideas.
+            Whether you're starting a new project, modernizing an existing platform, or exploring
+            AI-powered solutions, we'd love to hear about your ideas.
           </p>
 
           {/* CTA */}
@@ -103,7 +102,6 @@ export default function Contact() {
               className="group inline-flex items-center gap-3 rounded-full bg-cyan-600 px-7 py-4 font-semibold text-white shadow-lg shadow-cyan-600/15 transition-all duration-300 hover:-translate-y-0.5 hover:bg-cyan-700 hover:shadow-xl hover:shadow-cyan-600/20"
             >
               Start Your Project
-
               <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
           </div>
@@ -133,9 +131,8 @@ export default function Contact() {
               Send us your requirements anytime.
             </p>
 
-            <p className="mt-5 break-words text-sm font-semibold text-slate-900">
-              {company.email}
-            </p>
+            <p className="mt-5 break-words text-sm font-semibold text-slate-900">{company.email}</p>
+            <p className="mt-5 break-words text-sm font-semibold text-slate-900">{company.alternateEmail}</p>
 
             <div className="mt-5 h-px w-10 bg-cyan-500 transition-all duration-300 group-hover:w-16" />
           </div>
@@ -149,13 +146,10 @@ export default function Contact() {
 
             <h3 className="text-xl font-bold text-slate-900">Phone</h3>
 
-            <p className="mt-3 text-sm leading-6 text-slate-500">
-              Talk directly with our team.
-            </p>
+            <p className="mt-3 text-sm leading-6 text-slate-500">Talk directly with our team.</p>
 
-            <p className="mt-5 text-sm font-semibold text-slate-900">
-              {company.phone}
-            </p>
+            <p className="mt-5 text-sm font-semibold text-slate-900">{company.phone}</p>
+            <p className="mt-5 text-sm font-semibold text-slate-900">{company.alternate}</p>
 
             <div className="mt-5 h-px w-10 bg-cyan-500 transition-all duration-300 group-hover:w-16" />
           </div>
@@ -169,13 +163,9 @@ export default function Contact() {
 
             <h3 className="text-xl font-bold text-slate-900">Location</h3>
 
-            <p className="mt-3 text-sm leading-6 text-slate-500">
-              Serving clients worldwide.
-            </p>
+            <p className="mt-3 text-sm leading-6 text-slate-500">Serving clients worldwide.</p>
 
-            <p className="mt-5 text-sm font-semibold text-slate-900">
-              {company.location}
-            </p>
+            <p className="mt-5 text-sm font-semibold text-slate-900">{company.location}</p>
 
             <div className="mt-5 h-px w-10 bg-cyan-500 transition-all duration-300 group-hover:w-16" />
           </div>
@@ -187,9 +177,7 @@ export default function Contact() {
               <Clock className="h-6 w-6 text-cyan-600" />
             </div>
 
-            <h3 className="text-xl font-bold text-slate-900">
-              Availability
-            </h3>
+            <h3 className="text-xl font-bold text-slate-900">Availability</h3>
 
             <p className="mt-3 text-sm leading-6 text-slate-500">
               We're available for new projects.
@@ -232,8 +220,8 @@ export default function Contact() {
               </h2>
 
               <p className="mt-4 max-w-xl text-base leading-7 text-slate-600">
-                Share your goals, challenges, or ideas. We'll review your
-                requirements and get back to you with the best approach.
+                Share your goals, challenges, or ideas. We'll review your requirements and get back
+                to you with the best approach.
               </p>
             </div>
 
@@ -272,9 +260,7 @@ export default function Contact() {
 
               <div className="grid gap-6 md:grid-cols-2">
                 <div>
-                  <label className="mb-2 block text-sm font-semibold text-slate-700">
-                    Company
-                  </label>
+                  <label className="mb-2 block text-sm font-semibold text-slate-700">Company</label>
 
                   <input
                     type="text"
@@ -323,7 +309,6 @@ export default function Contact() {
                 className="group inline-flex items-center gap-3 rounded-full bg-cyan-600 px-8 py-4 font-semibold text-white shadow-lg shadow-cyan-600/15 transition-all duration-300 hover:-translate-y-0.5 hover:bg-cyan-700 hover:shadow-xl hover:shadow-cyan-600/20"
               >
                 Send Message
-
                 <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
               </button>
             </form>
@@ -361,9 +346,7 @@ export default function Contact() {
                     <div key={item} className="flex items-start gap-3">
                       <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-cyan-600" />
 
-                      <p className="text-sm leading-6 text-slate-600">
-                        {item}
-                      </p>
+                      <p className="text-sm leading-6 text-slate-600">{item}</p>
                     </div>
                   ))}
                 </div>
@@ -390,14 +373,12 @@ export default function Contact() {
               </div>
 
               <p className="mt-5 text-sm leading-7 text-slate-600 md:text-base">
-                We aim to respond to every inquiry within one business day. For
-                urgent projects, feel free to reach out via email or phone.
+                We aim to respond to every inquiry within one business day. For urgent projects,
+                feel free to reach out via email or phone.
               </p>
 
               <div className="mt-8 rounded-2xl border border-cyan-100 bg-gradient-to-br from-cyan-50 to-blue-50 p-6">
-                <p className="text-3xl font-bold tracking-tight text-cyan-700">
-                  &lt; 24 Hours
-                </p>
+                <p className="text-3xl font-bold tracking-tight text-cyan-700">&lt; 24 Hours</p>
 
                 <p className="mt-2 text-sm font-medium text-slate-500">
                   Average first response time
@@ -410,4 +391,3 @@ export default function Contact() {
     </section>
   );
 }
-

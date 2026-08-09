@@ -86,8 +86,8 @@ export default function Portfolio() {
           {/* Description */}
 
           <p className="mx-auto mt-7 max-w-3xl text-base leading-7 text-slate-600 md:text-lg md:leading-8">
-            Every project reflects our commitment to premium engineering,
-            thoughtful design, performance and scalable architecture.
+            Every project reflects our commitment to premium engineering, thoughtful design,
+            performance and scalable architecture.
           </p>
 
           {/* CTA */}
@@ -98,7 +98,6 @@ export default function Portfolio() {
               className="group inline-flex items-center gap-3 rounded-full bg-cyan-600 px-7 py-4 font-semibold text-white shadow-lg shadow-cyan-600/15 transition-all duration-300 hover:-translate-y-0.5 hover:bg-cyan-700 hover:shadow-xl"
             >
               Start Your Project
-
               <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
           </div>
@@ -180,7 +179,6 @@ export default function Portfolio() {
                 <div className="mt-8 flex items-center justify-between border-t border-slate-100 pt-6">
                   <button className="group/link inline-flex items-center gap-2 text-sm font-semibold text-cyan-600 transition-colors hover:text-cyan-700">
                     View Project
-
                     <ExternalLink className="h-4 w-4 transition-transform duration-300 group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5" />
                   </button>
 
@@ -197,6 +195,10 @@ export default function Portfolio() {
             CAPABILITIES
         ======================================================== */}
 
+        {/* =======================================================
+    AI & AUTOMATION
+======================================================== */}
+
         <motion.div
           variants={fadeUp}
           initial="hidden"
@@ -208,61 +210,99 @@ export default function Portfolio() {
 
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-[12px] font-bold uppercase tracking-[0.3em] text-cyan-600">
-              What We Deliver
+              AI & Automation
             </p>
 
             <h2 className="mt-5 text-3xl font-bold tracking-tight text-slate-900 md:text-5xl">
-              Engineering That Creates Impact
+              Turn Repetitive Work Into Intelligent Systems
             </h2>
 
             <p className="mt-6 text-base leading-7 text-slate-600 md:text-lg md:leading-8">
-              Every solution is designed with scalability, performance,
-              security and long-term business growth in mind.
+              We design AI-powered workflows and business automation systems that reduce manual
+              work, connect your tools, and help your team focus on higher-value work.
             </p>
           </div>
 
-          {/* Capability Cards */}
+          {/* Automation Cards */}
 
           <div className="mt-16 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
             {[
               {
-                value: "Fast",
-                label: "Performance Optimized",
-              },
-              {
-                value: "Modern",
-                label: "Technology Stack",
-              },
-              {
                 value: "AI",
-                label: "Intelligent Solutions",
+                label: "Intelligent Workflows",
+                description:
+                  "Use AI to understand documents, messages, customer requests and business data.",
               },
               {
-                value: "100%",
-                label: "Responsive Design",
+                value: "24/7",
+                label: "Automated Operations",
+                description:
+                  "Build workflows that continue running without requiring constant manual intervention.",
+              },
+              {
+                value: "API",
+                label: "Connected Systems",
+                description:
+                  "Connect websites, CRMs, databases, communication tools and third-party platforms.",
+              },
+              {
+                value: "∞",
+                label: "Scalable Processes",
+                description:
+                  "Create automation systems that can grow alongside your business and operations.",
               },
             ].map((item) => (
               <div
                 key={item.label}
-                className="group relative overflow-hidden rounded-[28px] border border-slate-200 bg-white p-8 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-cyan-200 hover:shadow-xl hover:shadow-slate-200/50"
+                className="group relative overflow-hidden rounded-[28px] border border-slate-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-cyan-200 hover:shadow-xl hover:shadow-slate-200/50"
               >
-                <h3 className="text-4xl font-black tracking-tight text-cyan-600">
-                  {item.value}
-                </h3>
+                <h3 className="text-4xl font-black tracking-tight text-cyan-600">{item.value}</h3>
 
-                <p className="mt-4 text-sm font-medium text-slate-500">
-                  {item.label}
-                </p>
+                <p className="mt-4 text-sm font-bold text-slate-900">{item.label}</p>
+
+                <p className="mt-3 text-sm leading-7 text-slate-600">{item.description}</p>
 
                 <div className="absolute bottom-0 left-1/2 h-0.5 w-0 -translate-x-1/2 bg-cyan-500 transition-all duration-500 group-hover:w-16" />
               </div>
             ))}
           </div>
+
+          {/* Automation Demo Showcase */}
+
+          <div className="mt-8 overflow-hidden rounded-[32px] border border-cyan-100 bg-gradient-to-br from-cyan-50 via-white to-blue-50 p-8 shadow-sm md:p-10">
+            <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
+              <div className="max-w-2xl">
+                <div className="inline-flex items-center rounded-full border border-cyan-200 bg-white px-4 py-2 text-xs font-bold uppercase tracking-wider text-cyan-700 shadow-sm">
+                  Interactive Automation Demos
+                </div>
+
+                <h3 className="mt-5 text-2xl font-bold tracking-tight text-slate-900 md:text-3xl">
+                  See What Business Automation Can Look Like
+                </h3>
+
+                <p className="mt-4 text-sm leading-7 text-slate-600 md:text-base">
+                  Explore our interactive automation concepts covering different business processes
+                  and operational use cases. These demos show how repetitive workflows can be
+                  transformed into structured digital systems.
+                </p>
+              </div>
+
+              <a
+                href="https://automation-demos.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex shrink-0 items-center justify-center gap-3 rounded-xl bg-slate-900 px-6 py-3.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-cyan-600 hover:shadow-xl"
+              >
+                Explore Automation Demos
+                <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
+              </a>
+            </div>
+          </div>
         </motion.div>
 
         {/* =======================================================
-            INDUSTRIES
-        ======================================================== */}
+    AI & AUTOMATION USE CASES
+======================================================== */}
 
         <motion.div
           variants={fadeUp}
@@ -275,51 +315,63 @@ export default function Portfolio() {
 
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-[12px] font-bold uppercase tracking-[0.3em] text-cyan-600">
-              Industries
+              Use Cases
             </p>
 
             <h2 className="mt-5 text-3xl font-bold tracking-tight text-slate-900 md:text-5xl">
-              Solutions Across Industries
+              Where We Apply AI & Automation
             </h2>
 
             <p className="mt-6 text-base leading-7 text-slate-600 md:text-lg md:leading-8">
-              We build software tailored to the unique needs of startups,
-              enterprises and growing businesses across multiple industries.
+              From lead management to internal operations, we identify repetitive processes and turn
+              them into efficient, connected workflows.
             </p>
           </div>
 
-          {/* Industry Pills */}
+          {/* Use Case Pills */}
 
-          <div className="mx-auto mt-16 flex max-w-5xl flex-wrap justify-center gap-3">
+          <div className="mx-auto mt-16 grid max-w-6xl gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              "Healthcare",
-              "Finance",
-              "Education",
-              "Manufacturing",
-              "Real Estate",
-              "Logistics",
-              "Retail",
-              "SaaS",
-              "Artificial Intelligence",
-              "Automation",
-              "E-Commerce",
-              "Corporate",
-            ].map((industry) => (
+              "Lead Management",
+              "CRM Automation",
+              "Document Processing",
+              "Customer Support",
+              "Email Automation",
+              "Sales Workflows",
+              "Invoice Processing",
+              "Reporting & Analytics",
+              "Data Collection",
+              "Appointment Management",
+              "Content Workflows",
+              "Internal Operations",
+            ].map((useCase) => (
               <div
-                key={industry}
-                className="group inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-600 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-700 hover:shadow-md"
+                key={useCase}
+                className="group flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-5 py-4 text-sm font-semibold text-slate-700 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-200 hover:bg-cyan-50 hover:text-cyan-700 hover:shadow-md"
               >
-                <span className="h-1.5 w-1.5 rounded-full bg-slate-300 transition-colors group-hover:bg-cyan-500" />
+                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-cyan-50 text-xs font-bold text-cyan-600 transition-colors group-hover:bg-cyan-100">
+                  +
+                </span>
 
-                {industry}
+                {useCase}
               </div>
             ))}
           </div>
+
+          {/* Bottom Message */}
+
+          <div className="mx-auto mt-10 max-w-4xl rounded-2xl border border-slate-200 bg-slate-50 px-6 py-5 text-center">
+            <p className="text-sm leading-7 text-slate-600">
+              <span className="font-semibold text-slate-900">Have a repetitive process?</span> We
+              can analyse the workflow, identify automation opportunities and design a system around
+              your actual business requirements.
+            </p>
+          </div>
         </motion.div>
 
         {/* =======================================================
-            PROJECT WORKFLOW
-        ======================================================== */}
+    AUTOMATION WORKFLOW
+======================================================== */}
 
         <motion.div
           variants={fadeUp}
@@ -332,16 +384,17 @@ export default function Portfolio() {
 
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-[12px] font-bold uppercase tracking-[0.3em] text-cyan-600">
-              Workflow
+              Automation Workflow
             </p>
 
             <h2 className="mt-5 text-3xl font-bold tracking-tight text-slate-900 md:text-5xl">
-              Our Delivery Process
+              From Manual Process to Intelligent System
             </h2>
 
             <p className="mt-6 text-base leading-7 text-slate-600 md:text-lg md:leading-8">
-              From concept to deployment, every project follows a structured
-              engineering process to ensure exceptional quality.
+              We don't automate for the sake of automation. We first understand the process,
+              identify the right opportunities, and then build a system that creates measurable
+              operational value.
             </p>
           </div>
 
@@ -351,19 +404,27 @@ export default function Portfolio() {
             {[
               {
                 step: "01",
-                title: "Discovery",
+                title: "Understand",
+                description:
+                  "We map the existing business process, identify bottlenecks and understand where your team spends time.",
               },
               {
                 step: "02",
-                title: "Planning",
+                title: "Identify",
+                description:
+                  "We find repetitive, rule-based and data-heavy tasks that can benefit from automation or AI.",
               },
               {
                 step: "03",
-                title: "Development",
+                title: "Build",
+                description:
+                  "We design and develop the workflow, integrations, APIs and intelligent logic required for the solution.",
               },
               {
                 step: "04",
-                title: "Launch",
+                title: "Optimize",
+                description:
+                  "We monitor the workflow, improve performance and continuously refine the system as your business evolves.",
               },
             ].map((item) => (
               <div
@@ -378,14 +439,9 @@ export default function Portfolio() {
                   <CheckCircle2 className="h-5 w-5 text-slate-200 transition-colors group-hover:text-cyan-500/60" />
                 </div>
 
-                <h3 className="mt-7 text-xl font-bold text-slate-900">
-                  {item.title}
-                </h3>
+                <h3 className="mt-7 text-xl font-bold text-slate-900">{item.title}</h3>
 
-                <p className="mt-4 text-sm leading-7 text-slate-600">
-                  We work collaboratively with you throughout every phase,
-                  ensuring transparency, quality and measurable results.
-                </p>
+                <p className="mt-4 text-sm leading-7 text-slate-600">{item.description}</p>
 
                 <div className="absolute bottom-0 left-0 h-0.5 w-0 bg-gradient-to-r from-cyan-500 to-blue-500 transition-all duration-500 group-hover:w-full" />
               </div>
@@ -422,9 +478,8 @@ export default function Portfolio() {
             </h2>
 
             <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-slate-600 md:text-lg md:leading-8">
-              Whether you need a premium website, a scalable web application,
-              AI integration or enterprise software, Nexora Labs is ready to
-              bring your vision to life.
+              Whether you need a premium website, a scalable web application, AI integration or
+              enterprise software, Nexora Labs is ready to bring your vision to life.
             </p>
 
             <div className="mt-10 flex flex-wrap justify-center gap-4">
@@ -433,7 +488,6 @@ export default function Portfolio() {
                 className="group inline-flex items-center gap-3 rounded-full bg-cyan-600 px-8 py-4 font-semibold text-white shadow-lg shadow-cyan-600/15 transition-all duration-300 hover:-translate-y-0.5 hover:bg-cyan-700 hover:shadow-xl"
               >
                 Start Your Project
-
                 <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
 
@@ -450,4 +504,3 @@ export default function Portfolio() {
     </section>
   );
 }
-
