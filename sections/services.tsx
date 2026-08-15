@@ -142,14 +142,14 @@ BACKGROUND
           </div>
 
           <h1 className="text-4xl font-bold leading-[1.08] tracking-tight text-slate-900 md:text-6xl lg:text-7xl">
-            Digital Solutions
+            Digital Web Solutions
             <span className="block bg-gradient-to-r from-cyan-600 via-blue-600 to-cyan-600 bg-clip-text text-transparent">
               Built For Growth
             </span>
           </h1>
 
           <p className="mx-auto mt-7 max-w-3xl text-base leading-7 text-slate-600 md:text-lg md:leading-8">
-            From software engineering and AI to automation, digital marketing and content creation,
+            From Websites & Web Apps and AI to automation, digital marketing and content creation,
             we help businesses build, launch and grow stronger digital experiences.
           </p>
 
