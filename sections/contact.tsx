@@ -111,14 +111,14 @@ export default function Contact() {
             CONTACT INFORMATION CARDS
         ======================================================== */}
 
-        <motion.div
+        {/* <motion.div
           variants={fadeUp}
           initial="hidden"
           whileInView="show"
           viewport={{ once: true }}
           className="mt-24 grid gap-5 md:grid-cols-2 xl:grid-cols-4"
         >
-          {/* Email */}
+          Email
 
           <div className="group rounded-[26px] border border-slate-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-cyan-200 hover:shadow-xl hover:shadow-slate-200/50">
             <div className="mb-6 inline-flex rounded-2xl border border-cyan-100 bg-cyan-50 p-3.5">
@@ -132,12 +132,12 @@ export default function Contact() {
             </p>
 
             <p className="mt-5 break-words text-sm font-semibold text-slate-900">{company.email}</p>
-            {/* <p className="mt-5 break-words text-sm font-semibold text-slate-900">{company.alternateEmail}</p> */}
+            <p className="mt-5 break-words text-sm font-semibold text-slate-900">{company.alternateEmail}</p>
 
             <div className="mt-5 h-px w-10 bg-cyan-500 transition-all duration-300 group-hover:w-16" />
           </div>
 
-          {/* Phone */}
+          Phone
 
           <div className="group rounded-[26px] border border-slate-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-cyan-200 hover:shadow-xl hover:shadow-slate-200/50">
             <div className="mb-6 inline-flex rounded-2xl border border-cyan-100 bg-cyan-50 p-3.5">
@@ -149,12 +149,12 @@ export default function Contact() {
             <p className="mt-3 text-sm leading-6 text-slate-500">Talk directly with our team.</p>
 
             <p className="mt-5 text-sm font-semibold text-slate-900">{company.phone}</p>
-            {/* <p className="mt-5 text-sm font-semibold text-slate-900">{company.alternate}</p> */}
+            <p className="mt-5 text-sm font-semibold text-slate-900">{company.alternate}</p>
 
             <div className="mt-5 h-px w-10 bg-cyan-500 transition-all duration-300 group-hover:w-16" />
           </div>
 
-          {/* Location */}
+          Location
 
           <div className="group rounded-[26px] border border-slate-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-cyan-200 hover:shadow-xl hover:shadow-slate-200/50">
             <div className="mb-6 inline-flex rounded-2xl border border-cyan-100 bg-cyan-50 p-3.5">
@@ -170,7 +170,7 @@ export default function Contact() {
             <div className="mt-5 h-px w-10 bg-cyan-500 transition-all duration-300 group-hover:w-16" />
           </div>
 
-          {/* Availability */}
+          Availability
 
           <div className="group rounded-[26px] border border-slate-200 bg-white p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-cyan-200 hover:shadow-xl hover:shadow-slate-200/50">
             <div className="mb-6 inline-flex rounded-2xl border border-cyan-100 bg-cyan-50 p-3.5">
@@ -189,7 +189,7 @@ export default function Contact() {
 
             <div className="mt-5 h-px w-10 bg-cyan-500 transition-all duration-300 group-hover:w-16" />
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* =======================================================
             CONTACT FORM + RIGHT PANEL
