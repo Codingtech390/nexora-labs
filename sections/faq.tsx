@@ -220,7 +220,7 @@ export default function FAQ() {
 
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-[12px] font-bold uppercase tracking-[0.3em] text-cyan-600">
-              Why Choose Nexora Labs
+              Why Choose STORMAX
             </p>
 
             <h2 className="mt-5 text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
@@ -325,4 +325,3 @@ export default function FAQ() {
     </section>
   );
 }
-

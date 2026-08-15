@@ -44,8 +44,8 @@ export const hero = {
 };
 
 export const statistics = [
-  { value: "15+", label: "Technologies" },
-  { value: "AI", label: "Solutions" },
+  { value: "15+", label: "Web Technologies" },
+  { value: "AI", label: "Automated Solutions" },
   { value: "100%", label: "Performance Focus" },
   { value: "24/7", label: "Continuous Learning" },
 ];

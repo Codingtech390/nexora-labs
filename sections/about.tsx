@@ -101,7 +101,7 @@ export default function About() {
         <div className="mt-24 grid gap-14 lg:grid-cols-2 lg:items-center lg:gap-20">
           {/* Story Content */}
 
-          <motion.div
+          {/* <motion.div
             variants={fadeUp}
             initial="hidden"
             whileInView="show"
@@ -133,29 +133,29 @@ export default function About() {
                 continue to grow long after launch.
               </p>
             </div>
-          </motion.div>
+          </motion.div> */}
 
           {/* Company Info Card */}
 
-          <motion.div
+          {/* <motion.div
             variants={fadeUp}
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
             className="relative"
           >
-            {/* Ambient Glow */}
+            Ambient Glow
 
             <div className="absolute -inset-4 rounded-[36px] bg-gradient-to-br from-cyan-400/10 via-blue-500/5 to-transparent blur-3xl" />
 
-            {/* Card */}
+            Card
 
             <div className="relative overflow-hidden rounded-[28px] border border-slate-200/80 bg-white/80 p-6 shadow-xl shadow-slate-200/40 backdrop-blur-xl sm:p-8">
-              {/* Decorative top line */}
+              Decorative top line
 
               <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-cyan-400/60 to-transparent" />
 
-              {/* Window Controls */}
+              Window Controls
 
               <div className="flex items-center gap-2">
                 <div className="h-2.5 w-2.5 rounded-full bg-slate-300" />
@@ -164,7 +164,7 @@ export default function About() {
               </div>
 
               <div className="mt-9 space-y-7">
-                {/* Company */}
+                Company
 
                 <div>
                   <p className="text-[12px] font-semibold uppercase tracking-[0.2em] text-slate-400">
@@ -174,7 +174,7 @@ export default function About() {
                   <h3 className="mt-2 text-xl font-bold text-slate-900">{company.name}</h3>
                 </div>
 
-                {/* Founded + Location */}
+                Founded + Location
 
                 <div className="grid gap-6 sm:grid-cols-2">
                   <div>
@@ -196,7 +196,7 @@ export default function About() {
                   </div>
                 </div>
 
-                {/* Tagline */}
+                Tagline
 
                 <div className="relative overflow-hidden rounded-2xl border border-cyan-100 bg-gradient-to-br from-cyan-50 to-blue-50 p-5">
                   <div className="absolute right-0 top-0 h-24 w-24 rounded-full bg-cyan-400/10 blur-2xl" />
@@ -207,7 +207,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
         {/* =======================================================
             MISSION & VISION

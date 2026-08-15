@@ -51,7 +51,7 @@ export default function Navbar() {
           {/* Logo */}
 
           <Link href="/" className="group flex items-center">
-            <span className="text-2xl font-black tracking-tight text-slate-900 transition-colors duration-300 group-hover:text-cyan-600">
+            <span className="text-xl font-black tracking-tight text-slate-900 transition-colors duration-300 group-hover:text-cyan-600">
               STORMAX
             </span>
           </Link>
