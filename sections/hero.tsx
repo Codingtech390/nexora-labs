@@ -277,7 +277,7 @@ export default function Hero() {
                   <Bot className="h-3.5 w-3.5 text-cyan-600" />
 
                   <span className="text-[10px] font-bold uppercase tracking-[0.18em] text-cyan-700 sm:text-[11px] sm:tracking-[0.22em]">
-                    AI & Business Automation
+                    AI & Web Based-business Automation
                   </span>
                 </div>
 

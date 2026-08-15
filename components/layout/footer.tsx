@@ -72,7 +72,7 @@ export default function Footer() {
             <div className="mt-8 flex items-center gap-3">
               {/* GitHub */}
 
-              <Link
+              {/* <Link
                 href="#"
                 aria-label="GitHub"
                 className="group flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-500 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-slate-300 hover:text-slate-900 hover:shadow-lg hover:shadow-slate-200/60"
@@ -81,11 +81,11 @@ export default function Footer() {
                   size={18}
                   className="transition-transform duration-300 group-hover:scale-110"
                 />
-              </Link>
+              </Link> */}
 
               {/* LinkedIn */}
 
-              <Link
+              {/* <Link
                 href="#"
                 aria-label="LinkedIn"
                 className="group flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-500 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-cyan-200 hover:text-cyan-700 hover:shadow-lg hover:shadow-cyan-100"
@@ -94,11 +94,11 @@ export default function Footer() {
                   size={18}
                   className="transition-transform duration-300 group-hover:scale-110"
                 />
-              </Link>
+              </Link> */}
 
               {/* X */}
 
-              <Link
+              {/* <Link
                 href="#"
                 aria-label="X / Twitter"
                 className="group flex h-11 w-11 items-center justify-center rounded-xl border border-slate-200 bg-white text-slate-500 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-slate-300 hover:text-slate-900 hover:shadow-lg hover:shadow-slate-200/60"
@@ -107,10 +107,10 @@ export default function Footer() {
                   size={17}
                   className="transition-transform duration-300 group-hover:scale-110"
                 />
-              </Link>
+              </Link> */}
 
               {/* Email */}
-
+{/*
               <Link
                 href="/contact"
                 aria-label="Email"
@@ -120,7 +120,7 @@ export default function Footer() {
                   size={17}
                   className="transition-transform duration-300 group-hover:scale-110"
                 />
-              </Link>
+              </Link> */}
             </div>
           </div>
 

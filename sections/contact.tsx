@@ -132,7 +132,7 @@ export default function Contact() {
             </p>
 
             <p className="mt-5 break-words text-sm font-semibold text-slate-900">{company.email}</p>
-            <p className="mt-5 break-words text-sm font-semibold text-slate-900">{company.alternateEmail}</p>
+            {/* <p className="mt-5 break-words text-sm font-semibold text-slate-900">{company.alternateEmail}</p> */}
 
             <div className="mt-5 h-px w-10 bg-cyan-500 transition-all duration-300 group-hover:w-16" />
           </div>
@@ -149,7 +149,7 @@ export default function Contact() {
             <p className="mt-3 text-sm leading-6 text-slate-500">Talk directly with our team.</p>
 
             <p className="mt-5 text-sm font-semibold text-slate-900">{company.phone}</p>
-            <p className="mt-5 text-sm font-semibold text-slate-900">{company.alternate}</p>
+            {/* <p className="mt-5 text-sm font-semibold text-slate-900">{company.alternate}</p> */}
 
             <div className="mt-5 h-px w-10 bg-cyan-500 transition-all duration-300 group-hover:w-16" />
           </div>
@@ -184,7 +184,7 @@ export default function Contact() {
             </p>
 
             <p className="mt-5 text-sm font-semibold leading-6 text-slate-900">
-              Mon – Fri · 9:00 AM – 6:00 PM
+              Sun – Fri · 9:00 AM – 6:00 PM
             </p>
 
             <div className="mt-5 h-px w-10 bg-cyan-500 transition-all duration-300 group-hover:w-16" />

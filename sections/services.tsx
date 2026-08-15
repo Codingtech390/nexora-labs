@@ -549,10 +549,10 @@ HEADER
 
                 {/* Learn More */}
 
-                <div className="relative mt-8 flex items-center gap-2 text-sm font-semibold text-cyan-600 transition-colors duration-300 group-hover:text-cyan-700">
+                {/* <div className="relative mt-8 flex items-center gap-2 text-sm font-semibold text-cyan-600 transition-colors duration-300 group-hover:text-cyan-700">
                   Learn More
                   <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
-                </div>
+                </div> */}
 
                 {/* Bottom Accent */}
 

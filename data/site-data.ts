@@ -7,7 +7,7 @@ export const company = {
   alternateEmail: "codingtech390@gmail.com",
   phone: "+91 98186 73068",
   alternate: "+91 92964 93509",
-  location: "India, Nepal",
+  location: "Nepal",
   founded: "2025",
 };
 
@@ -127,7 +127,7 @@ export const projects = [
 
     client: "Janasya",
 
-    year: "2024",
+    year: "2023",
 
     duration: "Client Project",
 
@@ -158,7 +158,7 @@ export const projects = [
 
     client: "MeaTech Solutions",
 
-    year: "2024",
+    year: "2022",
 
     duration: "Client Project",
 
@@ -189,7 +189,7 @@ export const projects = [
 
     client: "Goodyear Lubricants",
 
-    year: "2024",
+    year: "2021",
 
     duration: "Client Project",
 
@@ -250,7 +250,7 @@ export const projects = [
 
     client: "Ventana Design",
 
-    year: "2024",
+    year: "2023",
 
     duration: "Client Project",
 
