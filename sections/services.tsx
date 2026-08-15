@@ -149,7 +149,7 @@ BACKGROUND
           </h1>
 
           <p className="mx-auto mt-7 max-w-3xl text-base leading-7 text-slate-600 md:text-lg md:leading-8">
-            From Websites & Web Apps and AI to automation, digital marketing and content creation,
+            From Websites & Web Apps and AI to Automation, Digital marketing and Content creation,
             we help businesses build, launch and grow stronger digital experiences.
           </p>
 
