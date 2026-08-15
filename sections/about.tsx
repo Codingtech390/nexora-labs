@@ -425,7 +425,7 @@ export default function About() {
                 {/* Description */}
 
                 <p className="mt-6 max-w-xl text-sm leading-7 text-slate-400 sm:text-base sm:leading-8">
-                  At Nexora Labs, we don't see AI and automation as isolated features. We see them
+                  At STORMAX, we don't see AI and automation as isolated features. We see them
                   as intelligent layers that can transform the way a business operates,
                   communicates, makes decisions, and grows.
                 </p>

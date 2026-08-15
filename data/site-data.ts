@@ -1,9 +1,9 @@
 export const company = {
-  name: "Nexora Labs",
+  name: "STORMAX",
   tagline: "Building Modern Software That Helps Businesses Grow",
   description:
-    "Nexora Labs is a premium software studio specializing in modern websites, scalable web applications, AI-powered solutions, and business automation.",
-  email: "info@nexoralabs.com, medhavi.upadhyaya@gmail.com",
+    "STORMAX is a premium software studio specializing in modern websites, scalable web applications, AI-powered solutions, and business automation.",
+  email: "medhavi.upadhyaya@gmail.com",
   alternateEmail: "codingtech390@gmail.com",
   phone: "+91 98186 73068",
   alternate: "+91 92964 93509",
@@ -355,16 +355,13 @@ export const automationDemos = [
   },
 ];
 
-
-
-
 export const testimonials = [
   {
     name: "Aarav Sharma",
     position: "Founder",
     company: "Janasya",
     review:
-      "Nexora Labs understood the vision behind our fashion e-commerce experience and translated it into a clean, modern website. The shopping experience feels much smoother, and the attention to responsive design was especially impressive.",
+      "STORMAX understood the vision behind our fashion e-commerce experience and translated it into a clean, modern website. The shopping experience feels much smoother, and the attention to responsive design was especially impressive.",
   },
   {
     name: "Rohit Mehta",
@@ -378,27 +375,27 @@ export const testimonials = [
     position: "Business Head",
     company: "Goodyear Lubricants",
     review:
-      "The Nexora Labs team brought a very practical approach to the project. They understood our product categories, business requirements and customer journey, and delivered a website that feels professional, fast and easy to navigate.",
+      "The STORMAX team brought a very practical approach to the project. They understood our product categories, business requirements and customer journey, and delivered a website that feels professional, fast and easy to navigate.",
   },
   {
     name: "Ankit Kumar",
     position: "Founder & Director",
     company: "Bestone Water",
     review:
-      "Working with Nexora Labs was a smooth experience from start to finish. They were quick to understand our requirements and created a clean digital presence for our brand. Communication was straightforward and the final result looks very professional.",
+      "Working with STORMAX was a smooth experience from start to finish. They were quick to understand our requirements and created a clean digital presence for our brand. Communication was straightforward and the final result looks very professional.",
   },
   {
     name: "Rahul Kapoor",
     position: "Director",
     company: "Ventana Design",
     review:
-      "We wanted our website to reflect the premium quality of our doors, windows and architectural solutions. Nexora Labs helped us create a modern digital showcase that presents our products beautifully while keeping the experience simple for customers.",
+      "We wanted our website to reflect the premium quality of our doors, windows and architectural solutions. STORMAX helped us create a modern digital showcase that presents our products beautifully while keeping the experience simple for customers.",
   },
 ];
 
 export const faq = [
   {
-    question: "What services does Nexora Labs provide?",
+    question: "What services does STORMAX provide?",
     answer:
       "We build modern websites, web applications, AI-powered software, automation systems, APIs, dashboards, and scalable digital products.",
   },
@@ -454,5 +451,5 @@ export const faqBenefits = [
 ];
 
 export const footer = {
-  copyright: "© 2026 Nexora Labs. All rights reserved.",
+  copyright: "© 2026 STORMAX. All rights reserved.",
 };

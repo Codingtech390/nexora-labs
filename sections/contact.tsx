@@ -74,7 +74,7 @@ export default function Contact() {
             <Sparkles className="h-4 w-4 text-cyan-600" />
 
             <span className="text-[13px] font-bold tracking-wide text-cyan-700">
-              Contact Nexora Labs
+              Contact STORMAX
             </span>
           </div>
 
@@ -332,7 +332,7 @@ export default function Contact() {
                 </p>
 
                 <h3 className="mt-4 text-2xl font-bold tracking-tight text-slate-900">
-                  Why Work With Nexora Labs?
+                  Why Work With STORMAX?
                 </h3>
 
                 <div className="mt-8 space-y-5">

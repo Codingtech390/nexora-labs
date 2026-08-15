@@ -136,13 +136,13 @@ export default function Hero() {
               {statistics.map((item) => (
                 <div
                   key={item.label}
-                  className="rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-300 hover:shadow-md"
+                  className="rounded-xl border border-slate-200 bg-white px-2 py-3 shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-300 hover:shadow-md"
                 >
-                  <h3 className="text-lg font-semibold text-cyan-600">
+                  <h3 className="text-lg font-bold text-cyan-600">
                     {item.value}
                   </h3>
 
-                  <p className="mt-1 text-[10px] uppercase tracking-[0.12em] text-slate-500 sm:text-xs">
+                  <p className="mt-1 text-[9px] uppercase text-slate-500 sm:text-xs">
                     {item.label}
                   </p>
                 </div>
@@ -293,7 +293,7 @@ export default function Hero() {
                 {/* Description */}
 
                 <p className="mt-6 max-w-2xl text-sm leading-7 text-slate-600 sm:text-base md:text-lg md:leading-8">
-                  Nexora Labs transforms repetitive business processes into
+                  STORMAX transforms repetitive business processes into
                   intelligent, connected digital systems — helping teams reduce
                   manual work, improve visibility, and operate with greater
                   efficiency.

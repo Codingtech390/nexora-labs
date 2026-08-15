@@ -860,7 +860,7 @@ export default function Portfolio() {
             <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-slate-600 md:text-lg">
               Whether you need a premium website, scalable web
               application, AI integration, automation platform or
-              enterprise software, Nexora Labs is ready to bring your
+              enterprise software, STORMAX is ready to bring your
               vision to life.
             </p>
 

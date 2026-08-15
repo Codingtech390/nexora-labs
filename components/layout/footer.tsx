@@ -55,14 +55,9 @@ export default function Footer() {
             {/* Logo */}
 
             <Link href="/" className="group flex items-center">
-              <Image
-                src="/Nexora-logo-1.png"
-                alt="Nexora Labs"
-                width={180}
-                height={70}
-                priority
-                className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
-              />
+              <span className="text-2xl font-black tracking-tight text-slate-900 transition-colors duration-300 group-hover:text-cyan-600">
+                STORMAX
+              </span>
             </Link>
 
             {/* Description */}

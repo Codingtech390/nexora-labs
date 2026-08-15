@@ -51,14 +51,9 @@ export default function Navbar() {
           {/* Logo */}
 
           <Link href="/" className="group flex items-center">
-            <Image
-              src="/Nexora-logo-1.png"
-              alt="Nexora Labs"
-              width={180}
-              height={70}
-              priority
-              className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]"
-            />
+            <span className="text-2xl font-black tracking-tight text-slate-900 transition-colors duration-300 group-hover:text-cyan-600">
+              STORMAX
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -66,8 +61,7 @@ export default function Navbar() {
           <nav className="hidden items-center gap-2 lg:flex">
             {navigation.map((item) => {
               const active =
-                pathname === item.href ||
-                (item.href !== "/" && pathname.startsWith(item.href));
+                pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
 
               return (
                 <Link
@@ -77,9 +71,7 @@ export default function Navbar() {
                 >
                   <span
                     className={`relative z-10 transition-colors ${
-                      active
-                        ? "text-slate-900"
-                        : "text-slate-600 hover:text-cyan-600"
+                      active ? "text-slate-900" : "text-slate-600 hover:text-cyan-600"
                     }`}
                   >
                     {item.label}
@@ -109,10 +101,7 @@ export default function Navbar() {
               className="group inline-flex items-center gap-2 rounded-full bg-cyan-600 px-6 py-3 text-sm font-semibold text-white shadow-sm transition-all hover:scale-105 hover:bg-cyan-700"
             >
               Let's Talk
-              <ArrowRight
-                size={16}
-                className="transition-transform group-hover:translate-x-1"
-              />
+              <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
             </Link>
           </div>
 
@@ -142,8 +131,7 @@ export default function Navbar() {
             <div className="mx-auto flex max-w-7xl flex-col px-6 py-6">
               {navigation.map((item) => {
                 const active =
-                  pathname === item.href ||
-                  (item.href !== "/" && pathname.startsWith(item.href));
+                  pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
 
                 return (
                   <Link
