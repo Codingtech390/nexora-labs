@@ -38,7 +38,7 @@ export const hero = {
   badge: "Next.js • React.js • AI • Cloud • Digital Marketing",
   title: "Digital Engineering Without Limits",
   subtitle:
-    "We help startups and businesses build fast, scalable, and beautifully engineered software products.",
+    "We help startups and businesses build fast, scalable websites & web apps, and beautifully engineered software products.",
   primaryButton: "Let's Build Together",
   secondaryButton: "Our Work",
 };
